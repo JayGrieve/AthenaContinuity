@@ -29,9 +29,8 @@ In the case where in some round > 1, the ballots drawn are again greater then k_
 
 In order to test the above solution, I implemented the changes using the Athena audit method. I ran the audit on a four candidate election with candiates Biden, Sanders, Warren, Yang, and Kanye with 10000, 9250, 9000, 8500, and 2000 reported votes respectively. The risk limit of the audit was .05. For ballot drawing, 1000 ballots were drawn each round for, a maximum of 8 rounds, sampled from a multivariate hypergeometric distribution. 
 
-<center>
  
-|           |        |            | Risk limit at Audit Completion |         | Resulting Risk Limit |         |         |
+|           |        |            | Risk of Audit at Completion |         |  |         |         |
 |-----------|--------|------------|:------------------------------:|---------|----------------------|---------|---------|
 | Candidate | Margin | #Completed | .05-.04                        | .04-.03 | .03-.02              | .02-.01 | .01-.00 |
 | Sanders   | .039   | 164        | 138                            | 9       | 6                    | 7       | 4       |
@@ -39,4 +38,13 @@ In order to test the above solution, I implemented the changes using the Athena 
 | Yang      | .081   | 249        | 10                             | 2       | 7                    | 9       | 221     |
 | Kanye     | .66    | 250        | 0                              | 0       | 0                    | 0       | 250     |
 
-</center>
+
+
+The above table describes the risk of the audits 
+
+
+
+
+
+
+
