@@ -39,4 +39,4 @@ In order to test the above solution, I implemented the changes using the Athena 
 | Yang      | .081   | 249        | 10                             | 2       | 7                    | 9       | 221     |
 | Kanye     | .66    | 250        | 0                              | 0       | 0                    | 0       | 250     |
 
-<center>
+</center>
