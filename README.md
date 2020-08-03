@@ -12,16 +12,16 @@ In multicandidate elections, the audits are preformed as pairwise audits of the 
 # Proposed Solution
 
 ### Proceeding to next round:
-In order to proceed to the next round, increase $k_{min}$ to, equivelently $k_{drawn} + 1$, resulting in a lower risk limit.
+In order to proceed to the next round, increase k_min to, equivelently k_drawn + 1, resulting in a lower risk limit.
 
 ### Not passing following rounds:
 
-There is a case where after artificially increasing $k_{min}$, the audit does not pass in the next rounds, or rounds after that. As long as one or more of the pairwise audits are still needing to be continued, this is fine. But in the case where in some round $> 1$, all other pairwise audits meet the stopping condition, but the artificially continued pairwise audits do not, for each of the artificially continued audits, simply select the minimum $p$ value passed across all rounds.
+There is a case where after artificially increasing k_min, the audit does not pass in the next rounds, or rounds after that. As long as one or more of the pairwise audits are still needing to be continued, this is fine. But in the case where in some round > 1, all other pairwise audits meet the stopping condition, but the artificially continued pairwise audits do not, for each of the artificially continued audits, simply select the minimum p value passed across all rounds.
 
 ### Continuing to pass k_min:
 
 
-In the case where in some round $> 1$, the ballots drawn are again greater then $k_{min}$, a recompution of the whole audit is needed considering the risk limit implied by the incrementing of k_min in that round. 
+In the case where in some round > 1, the ballots drawn are again greater then k_min, a recompution of the whole audit is needed considering the risk limit implied by the incrementing of k_min in that round. 
 
 
 
