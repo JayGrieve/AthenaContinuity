@@ -43,7 +43,7 @@ In order to test the above solution, I implemented the changes using the Athena 
 The above table describes the risk of the audits who completed within the 8 round maximum of the simulation. As you can see, with wider margins the ultimate risk of the audit can be greatly reduced through this method. One thing is important to note, why does Sanders have signifigantly less reduction in risk than Warren when there margins are not very different? This is because Sanders has the lowest margin meaning the Sanders audit is, in most cases, the audit which neccesitates that the whole audit continue.
 
 
-![](https://raw.githubusercontent.com/JayGrieve/AthenaContinuity/master/sanders_lp.png)
+![](https://raw.githubusercontent.com/JayGrieve/AthenaContinuity/master/sanders_lp.png?token=AKRZ4FODVJBM53ZRST34HT27FMIR4)
 ![](https://raw.githubusercontent.com/JayGrieve/AthenaContinuity/master/warren_lp.png?token=AKRZ4FMZBNBYGBLEHCCENR27FBRAM)
 ![](https://raw.githubusercontent.com/JayGrieve/AthenaContinuity/master/yang_lp.png?token=AKRZ4FPTDD6TBLWCAX7XJQ27FBRAS)
 ![](https://raw.githubusercontent.com/JayGrieve/AthenaContinuity/master/kanye_lp.png?token=AKRZ4FML5GEVKZ5TLGBY35C7FBRA4)
