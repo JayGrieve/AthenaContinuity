@@ -49,6 +49,11 @@ The above table describes the risk of the audits who completed within the 8 roun
 ![](https://raw.githubusercontent.com/JayGrieve/AthenaContinuity/master/kanye_lp.png?token=AKRZ4FONONAJMNA77W3CBR27FMIXO)
 
 
+## Analysis
+
+The graphs above display the benefits of using this method to lower the risk of audits. It can be seen that the extra information attained by continuing the audit greatly lowers the overall risk for all of the other candidates.
+
+
 
 
 
